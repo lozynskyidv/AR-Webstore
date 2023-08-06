@@ -1,11 +1,11 @@
-import sheenchair from "../assets/models/aquarium.glb";
-import ioschair from "../assets/models/aquarium.usdz";
-import painting from "../assets/models/cat-tree.glb";
-import iospainting from "../assets/models/cat-tree.usdz";
-import car from "../assets/models/aquarium.glb";
-import ioscar from "../assets/models/aquarium.usdz";
-import car1 from "../assets/models/cat-tree.glb";
-import ioscar1 from "../assets/models/cat-tree.usdz";
+import sheenchair from "../assets/models/sheenchair.glb";
+import ioschair from "../assets/models/sheenchair.usdz";
+import painting from "../assets/models/Painting.glb";
+import iospainting from "../assets/models/Painting.usdz";
+import car from "../assets/models/car.glb";
+import ioscar from "../assets/models/car.usdz";
+import car1 from "../assets/models/Car1.glb";
+import ioscar1 from "../assets/models/Car1.usdz";
 
 
 const items = [
@@ -19,7 +19,7 @@ const items = [
 },
 {
     id: 2,
-    name: "Cat tree",
+    name: "Painting",
     src: painting,
     iosSrc: iospainting,
     category: "Art",
@@ -27,7 +27,7 @@ const items = [
 },
 {
     id: 3,
-    name: "Aquarium",
+    name: "Car",
     src: car,
     iosSrc: ioscar,
     category: "Vehicle",
@@ -36,7 +36,7 @@ const items = [
 
 {
     id: 4,
-    name: "Cat tree",
+    name: "Sport Car",
     src: car1,
     iosSrc: ioscar1,
     category: "Vehicle",
