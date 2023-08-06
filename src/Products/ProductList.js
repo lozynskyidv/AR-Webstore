@@ -1,46 +1,35 @@
-import sheenchair from "../assets/models/sheenchair.glb";
-import ioschair from "../assets/models/sheenchair.usdz";
-import painting from "../assets/models/Painting.glb";
-import iospainting from "../assets/models/Painting.usdz";
-import car from "../assets/models/car.glb";
-import ioscar from "../assets/models/car.usdz";
-import car1 from "../assets/models/Car1.glb";
-import ioscar1 from "../assets/models/Car1.usdz";
+import sheenchair from "../assets/models/aquarium.glb";
+import ioschair from "../assets/models/aquarium.usdz";
+import painting from "../assets/models/dog-house.glb";
+import iospainting from "../assets/models/dog-house.usdz";
+import car from "../assets/models/cat-tree.glb";
+import ioscar from "../assets/models/cat-tree.usdz";
 
 
 const items = [
 {
     id: 1,
-    name: "Sheen Chair",
+    name: "Aquarium",
     src: sheenchair,
     iosSrc: ioschair,
-    category: "Furniture",
-    color: "Orange",
-},
-{
-    id: 2,
-    name: "Painting",
-    src: painting,
-    iosSrc: iospainting,
-    category: "Art",
+    category: "Fish",
     color: "Brown",
 },
 {
+    id: 2,
+    name: "Dog House",
+    src: painting,
+    iosSrc: iospainting,
+    category: "Pet Houses",
+    color: "Dark",
+},
+{
     id: 3,
-    name: "Car",
+    name: "Cat Tree",
     src: car,
     iosSrc: ioscar,
-    category: "Vehicle",
-    color: "Blue",
-},
-
-{
-    id: 4,
-    name: "Sport Car",
-    src: car1,
-    iosSrc: ioscar1,
-    category: "Vehicle",
-    color: "Red",
+    category: "Pet Stuff",
+    color: "White",
 },
 
 ];
