@@ -1,11 +1,11 @@
-import sheenchair from "../assets/models/sheenchair.glb";
-import ioschair from "../assets/models/sheenchair.usdz";
-import painting from "../assets/models/Painting.glb";
-import iospainting from "../assets/models/Painting.usdz";
-import car from "../assets/models/car.glb";
-import ioscar from "../assets/models/car.usdz";
-import car1 from "../assets/models/Car1.glb";
-import ioscar1 from "../assets/models/Car1.usdz";
+import sheenchair from "../assets/models/aquarium.glb";
+import ioschair from "../assets/models/aquarium.usdz";
+import painting from "../assets/models/aquarium.glb";
+import iospainting from "../assets/models/aquarium.usdz";
+import car from "../assets/models/aquarium.glb";
+import ioscar from "../assets/models/aquarium.usdz";
+import car1 from "../assets/models/aquarium.glb";
+import ioscar1 from "../assets/models/aquarium.usdz";
 
 
 const items = [
